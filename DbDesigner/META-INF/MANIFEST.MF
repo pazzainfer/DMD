@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DB Model Designer
+Bundle-SymbolicName: com.leven.dmd;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.leven.dmd.pro.Activator
+Bundle-Vendor: www.leven.com.cn
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.intro,
+ org.eclipse.gef,
+ org.eclipse.ui.views,
+ org.eclipse.ui.ide,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.navigator,
+ org.eclipse.ui.forms,
+ org.eclipse.core.resources,
+ org.eclipse.ui.console
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/xstream-1.3.jar,
+ lib/xpp3_min-1.1.4c.jar,
+ lib/iText-2.1.7.jar,
+ lib/iText-rtf-2.1.7.jar,
+ lib/iTextAsian.jar
